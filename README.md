@@ -28,15 +28,16 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 
 ```bash
 # using npm
-npm run android
 git clone https://github.com/JamesGs1994/Adcuratio_StackOverfow.git
 cd Adcuratio_StackOverfow
-
+npm install
+npm run android
 # OR using Yarn
+
+git clone https://github.com/JamesGs1994/Adcuratio_StackOverfow.git
+cd Adcuratio_StackOverfow
 yarn install
 yarn android
-git clone https://github.com/JamesGs1994/Adcuratio_StackOverfow.git
-cd Adcuratio_StackOverfow
 
 ```
 
