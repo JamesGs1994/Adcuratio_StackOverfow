@@ -85,6 +85,19 @@ const styles = {
     fontWeight: '600',
     color: Colors.statusBar,
   },
+  topQuestion: {
+    fontSize: 22,
+    lineHeight: 24,
+    fontFamily: 'Roboto',
+    fontWeight: '600',
+    color: Colors.grayVarient1,
+  },
+  borderLine: {
+    borderBottomWidth: 1,
+    borderColor: Colors.grayVarient2,
+    width: '100%',
+    justifyContent: 'center',
+  },
 };
 
 export default styles;
