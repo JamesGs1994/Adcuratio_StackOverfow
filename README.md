@@ -87,3 +87,8 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 "# Adcuratio_App" 
+##Example Screens
+![image](https://github.com/JamesGs1994/Adcuratio_StackOverfow/assets/81745865/10623184-48fe-42a7-98ec-4f50f45d269f)
+
+![image](https://github.com/JamesGs1994/Adcuratio_StackOverfow/assets/81745865/d6b33f69-214f-4cf1-8508-6467014f36d1)
+![image](https://github.com/JamesGs1994/Adcuratio_StackOverfow/assets/81745865/4d28ebce-f45e-4345-9f60-9cd96c192bc0)
