@@ -19,7 +19,6 @@ const AdcCallBackAPI = ({topic}) => {
         `https://api.stackexchange.com/2.3/questions?order=desc&sort=hot&tagged=${topic}&site=stackoverflow&pagesize=100`,
       );
       const data = await response.json();
-      console.log(data, 'data+++++++');
       setQuestions(data.items);
     } catch (error) {
       console.error('Error fetching questions:', error);
@@ -86,7 +85,7 @@ const AdcCallBackAPI = ({topic}) => {
                   showsHorizontalScrollIndicator={false}
                   renderItem={({item: tag}) => (
                     <AdcView tagView>
-                      <AdcText style={{marginRight: 5}}>{tag}</AdcText>
+                      <AdcText tagText>{tag}</AdcText>
                     </AdcView>
                   )}
                 />
