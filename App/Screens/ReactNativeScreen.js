@@ -3,7 +3,7 @@ import AdcView from '../commonComponents/AdcView';
 import AdcCallBackAPI from '../commonComponents/AdcCallBackAPI';
 import AdcText from '../commonComponents/AdcText';
 
-const ReactScreen = () => {
+const ReactNativeScreen = () => {
   return (
     <AdcView centerAlign flex1>
       <AdcView row sPaddingBottom paddingTop borderLine>
@@ -14,4 +14,4 @@ const ReactScreen = () => {
   );
 };
 
-export default ReactScreen;
+export default ReactNativeScreen;
