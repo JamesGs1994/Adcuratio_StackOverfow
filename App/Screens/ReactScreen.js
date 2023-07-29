@@ -9,7 +9,7 @@ const ReactScreen = () => {
       <AdcView row sPaddingBottom paddingTop borderLine>
         <AdcText topQuestion>{`Top Questions`}</AdcText>
       </AdcView>
-      <AdcCallBackAPI topic={'nodejs'} />
+      <AdcCallBackAPI topic={'react'} />
     </AdcView>
   );
 };
